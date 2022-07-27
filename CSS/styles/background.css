@@ -16,7 +16,7 @@ background-repeat: no-repeat;
 /* background-repeat: repeat-y; */
 /* background-repeat: space; */
 /* background-repeat: round; */
-background-position: center;
+background-position: 100% 100%;
 }
 .big2-img {
     background: url(.././images/big2.jpeg);
