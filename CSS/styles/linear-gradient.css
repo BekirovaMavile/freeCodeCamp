@@ -10,7 +10,7 @@ div{
     background: linear-gradient(yellow, red, green, blue, blueviolet);
 }
 .three{
-    background: linear-gradient(315deg, pink, blue);
+    background: linear-gradient(45deg, pink, blue);
 }
 .four {
     background: linear-gradient(to top right, pink, blue);
