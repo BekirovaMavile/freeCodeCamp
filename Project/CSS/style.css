@@ -1,0 +1,16 @@
+ul a {
+color: aqua;
+text-decoration: none;
+}
+ul a:link{
+color: blueviolet;
+}
+ul a:active{
+    color: darkgoldenrod;
+}
+ul a:visited{
+    color: red;
+}
+ul a:hover{
+    color: cornflowerblue;
+}
