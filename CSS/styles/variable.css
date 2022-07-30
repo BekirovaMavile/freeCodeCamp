@@ -19,3 +19,11 @@ div{
 .main-text{
     color: var(--primaryRed);
 }
+.third-heading{
+    color: var(--primaryRed);
+        transition: var(--mainTransition);
+}
+.third-heading:hover{
+    color: green;
+margin-left: 50px;
+}
