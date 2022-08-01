@@ -1,0 +1,22 @@
+.box{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: crimson;
+}
+/* @media (min-width: 800px){
+    .box{
+        background-color: fuchsia;
+    }
+}
+@media (min-width: 600px) and (max-width:799px){
+    .box {
+        background-color: orangered;
+    }
+}
+@media (max-width: 599px) {
+    .box {
+        background-color: blue;
+    }
+} */
