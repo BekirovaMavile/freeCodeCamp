@@ -1,12 +1,12 @@
-.wrapper .comment_title .number{
+#box_wrapper span .number{
     color: blue;
 }
 #box_wrapper span span{
     color: red;
 }
-div.wrapper .number{
+#box_wrapper.wrapper .number{
     color: green;
 }
-span.comment_title span{
+#box_wrapper.wrapper span span.number{
     color: yellow;
 }

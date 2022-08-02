@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .wrapper {
+        width: 100px;
+        background-color: blue;
+      }
+      .wrapper > div {
+        height: 100%;
+        /* background-color: red; */
+      }
+      div {
+        margin: 5px;
+        border: 1px solid black;
+        background-color: white;
+      }
+      /* .one ~ div {
+        background-color: blue;
+      } */
+      /* .box.two {
+        background-color: red;
+      } */
+      .box.three,
+      .box.two,
+      .box.one {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="one even"><div class="box three">1</div></div>
+      <div class="two odd"><div class="box two">2</div></div>
+      <div class="three even"><div class="box one">3</div></div>
+    </div>
+  </body>
+</html>

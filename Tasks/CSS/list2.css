@@ -1,0 +1,30 @@
+div.even>div.one {
+    background-color: green;
+} 
+/* Номер 3 будет зеленым */
+.wrapper>div {
+    background-color: red;
+}
+div .even {
+    background-color: blue;
+}
+/* Граница вокруг 2 станет красной, а вокруг 1 и 3 - синей */
+div .even+.odd {
+    background-color: yellow;
+}
+/* Граница вокруг 2 станет желтой */
+div .even~.even {
+    background-color: red;
+}
+/* Граница вокруг 3 станет красной */
+div div.one~div div {
+    background-color: blue;
+}
+/* 2 и 3 станет синей */
+div div.one+div div {
+    background-color: blue;
+} 
+/* 2 станет синей */
+div div .three ~ div {
+    background-color: red;
+}
