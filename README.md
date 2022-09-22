@@ -11,4 +11,4 @@
 
 ### This site was built using [Tolkien books project](http://127.0.0.1:5501/Project/home.html).
 
-### Вы можете ознакомится с проектом перейдя по этой ссылке - <strong>https://BekirovaMavile.github.io/freeCodeCamp/home.html</strong>
+Вы можете ознакомится с проектом перейдя по этой ссылке - <strong>https://BekirovaMavile.github.io/freeCodeCamp/home.html</strong>
